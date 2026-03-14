@@ -1,6 +1,9 @@
 # Exercicio 1
 # Faça um programa que mostre na tela os números de 1 até 10, um por linha
 
+for i in range(1, 11):
+    print(f"Line: {i}")
+
 # Exercicio 2
 # Crie um programa que comece com o número 1 e vá aumentande de 1 em 1 até chegar em 5,
 # mostrando cada número na tela.
