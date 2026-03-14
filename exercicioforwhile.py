@@ -19,3 +19,19 @@ print(x)
 # Exercicio 3
 # Escreva dois programas: 1. Um com for que soma os números de 1 até 5.
 # 2. Outro com while que faz a mesma soma.
+
+soma = 0
+
+for i in range(1, 6):
+    soma += i
+
+print(soma)
+
+x = 0
+y = 1
+
+while y <= 5:
+    x += y
+    y += 1
+
+print(x)
