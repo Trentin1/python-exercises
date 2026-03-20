@@ -1,0 +1,8 @@
+for i in range(1, 10, 2):
+    print(i)
+
+for i in range(10, 0, -1):
+    print(i)
+
+for i in range(20, 9, -2):
+    print(i)
