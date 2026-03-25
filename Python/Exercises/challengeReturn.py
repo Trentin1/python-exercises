@@ -1,0 +1,6 @@
+def square_number(n):
+    return n * n
+
+input_num = int(input())
+result = square_number(input_num)
+print(result)
