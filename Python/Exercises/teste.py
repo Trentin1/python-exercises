@@ -1,17 +1,5 @@
-temperature = int(input("Digite a temperatura: "))
-weather = "unset"
+nums = [2, 3, 6, 8]
 
-if temperature < 0:
-    weather = "Freezing"
+todos_pares = all(n % 2 == 0 for n in nums)
 
-elif 0 <= temperature <= 15:
-    weather = "Cold"
-
-elif 16 <= temperature <= 25:
-    weather = "Mild"
-
-else:
-    weather = "Hot"
-
-
-print(f"A temperatura é {temperature}Cº e o clima está = {weather}")
+print(todos_pares)
